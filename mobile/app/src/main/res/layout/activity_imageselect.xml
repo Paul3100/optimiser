@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/log3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".imageselect"
+    tools:ignore="HardcodedText">
+
+
+    <Button
+        android:id="@+id/BSelectImage"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="630dp"
+        android:layout_marginBottom="53dp"
+        android:onClick="upload"
+        android:text="Upload"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/IVPreviewImage"
+        android:layout_width="277dp"
+        android:layout_height="211dp"
+        android:layout_below="@id/BSelectImage"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-700dp"
+        android:layout_marginEnd="16dp" />
+
+
+</RelativeLayout>
+
+
